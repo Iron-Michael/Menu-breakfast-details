@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@font-face {
+  font-family: "YoungSerif-Regular";
+  src: url("./fonts/YoungSerif-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Outfit-SemiBold";
+  src: url("./fonts/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url("./fonts/Outfit-Bold.ttf") format("truetype");
+  font-weight: 300;
+}
+
+
+
+@font-face {
+  font-family: "Outfit-Light";
+  src: url("./fonts/Outfit-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Outfit-ExtraLight";
+  src: url("./fonts/Outfit-ExtraLight.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Outfit-Thin";
+  src: url("./fonts/Outfit-Thin.ttf") format("truetype");
+  font-weight: 400;
+}
+
+
+
+
+.main-bg{
+  background-color: #F3E5D8;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-family: "YoungSerif-Regular"
+}
+
+.white-bg {
+  background-color: #FFFFFF;
+  width: 500px;
+  min-height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.big-label{
+  font-size: 30px;
+}
+
+.label-row-size{
+  width: "450px",
+}
+
+.img-resolution{
+  width: 450px;
+  height: 200px; 
+  margin-top: 30px;
+  border-radius: 10px;
+  object-fit: cover; 
+}
+
+
+
+
+@media (max-width: 720px) {
+  .white-bg {
+    width: 100%;  
+    height:100%;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-top: 0%;
+  }
+
+  .big-label{
+  font-size: 20px;
+  }
+
+
+  .label-row-size{
+    width: 70%,
+    }
+  .img-resolution{
+    width: 80%;
+    height: auto; 
+    border-radius: 10px;
+    margin-top: 0px;
+    object-fit: cover; 
+  }
+
+
+}
